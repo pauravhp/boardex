@@ -1,0 +1,11 @@
+.boardgame-card-grid-container {
+    max-height: 80vh;
+    overflow-y: scroll;
+    // color: white;
+    // background-color: red;
+    padding: 0 0 0 50px;
+    .boardgame-card {
+        justify-content: center;
+        align-items: center;
+    }
+}

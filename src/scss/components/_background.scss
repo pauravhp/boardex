@@ -1,0 +1,16 @@
+.background {
+    z-index: -1;
+    position: absolute;
+    max-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    img {
+        gap: 5rem;
+        // margin-right: 5rem;
+        max-inline-size: 100%;
+        block-size: auto;
+        height: 40vh;
+        width:auto;
+    }
+}

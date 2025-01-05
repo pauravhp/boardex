@@ -1,0 +1,53 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 2rem;
+    color: white;
+    margin-top: 2rem;
+
+    &-text {
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 3rem; /* Main heading size */
+        font-weight: bold; /* Matches screenshot style */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Slightly smaller than h1 */
+        font-weight: 400; /* Normal weight for subtitle */
+    }
+
+    h4 {
+        font-size: 1rem; /* Smaller for the descriptive text */
+        font-weight: 300; /* Light font for subtlety */
+    }
+
+    &-image {
+        height: 15rem;
+        width: 15rem;
+        border-radius: 10rem;
+        object-fit: cover;
+        border: 0.2rem solid var(--accent-color);
+        padding: 0.5rem;
+    }
+
+    &-links {
+        display: flex;
+        gap: 2rem;
+        margin-top: 2rem;
+        cursor: pointer;
+        a {
+            color: var(--accent-color);
+            svg {
+                font-size: 2rem;
+            }
+        }
+    }
+}
