@@ -1,46 +1,92 @@
-# Getting Started with Create React App
+# BoarDEX
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
+BoarDEX is a dynamic web application designed to explore and compare board games. It provides users with detailed insights, including game descriptions, mechanics, categories, ratings, and reviews. The platform is user-friendly, responsive, and visually engaging, making it a great resource for board game enthusiasts.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **Search Board Games**: Easily search and filter board games based on their names or categories.
+- **View Details**: Explore comprehensive details about each board game, including ratings, mechanics, and reviews.
+- **Compare Games**: Compare different board games side-by-side.
+- **Personalized List**: Add board games to your personal list for quick reference.
+- **User Reviews**: Browse reviews from other users.
+- **Responsive Design**: Fully responsive and optimized for all devices.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🛠️ Technologies Used
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Frontend**: React.js with Material-UI
+- **State Management**: Redux
+- **Routing**: React Router
+- **Backend/Database**: Firebase
+- **Styling**: SCSS + Material-UI
+- **Icons**: Material Symbols + FlatIcon
+- **Deployment**: Netlify
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🖱️ How to Use
 
-### `npm run build`
+### Search Board Games
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Use the search bar on the home page to find your favorite board games.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### View Details
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Click on a board game to view its description, mechanics, categories, ratings, and reviews.
 
-### `npm run eject`
+### Add to List
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Add board games to your personalized list by clicking the "Add to List" button.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Compare Games
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Navigate to the "Compare" tab to compare details of two or more board games.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Explore Reviews
 
-## Learn More
+- View detailed reviews and ratings provided by other users.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📚 Libraries, APIs, and Resources
+
+### Libraries
+
+- **Material-UI**: For implementing responsive and modern UI components. [Material-UI Documentation](https://mui.com/)
+- **SCSS**: For enhanced styling and modular CSS. [SCSS Documentation](https://sass-lang.com/)
+- **Firebase**: For authentication and real-time database services. [Firebase Documentation](https://firebase.google.com/)
+- **React Toastify**: For showing user-friendly notifications. [React Toastify Documentation](https://fkhadra.github.io/react-toastify/)
+- **React Icons**: For including Material and Font Awesome icons. [React Icons Documentation](https://react-icons.github.io/react-icons/)
+- **DOMParser**: For parsing XML data into usable objects. [MDN Web Docs on DOMParser](https://developer.mozilla.org/en-US/docs/Web/API/DOMParser)
+- **Netlify CLI**: For seamless deployment to Netlify. [Netlify CLI Documentation](https://docs.netlify.com/cli/get-started/)
+
+---
+
+### APIs
+
+- **BoardGameGeek API**: Used to fetch detailed board game data, including descriptions, categories, mechanics, and reviews. [BoardGameGeek API](https://boardgamegeek.com/wiki/page/BGG_XML_API2)
+- **Firebase Authentication API**: For managing user authentication securely. [Firebase Authentication](https://firebase.google.com/products/auth)
+
+---
+
+### Resources
+
+- **YouTube Video**: This project drew inspiration from a video tutorial on creating dynamic, responsive web apps for a Pokedex web application.
+  - [Video Title: "Build a Pokemon App with React, Redux Toolkit, Typescript, Firebase and SCSS with Netlify Deployment"](https://www.youtube.com/watch?v=qs2neNqLcmw&t=855s)
+
+---
+
+## 📂 Project Structure
+
+boardex/
+├── public/ # Public assets
+├── src/
+│ ├── app/ # Redux store and slices
+│ ├── components/ # Reusable components
+│ ├── pages/ # Application pages (Search, About, Compare, etc.)
+│ ├── scss/ # SCSS files for styling
+│ ├── sections/ # Sections like NavBar and Footer
+│ ├── utils/ # Constants, helper functions, and configurations
+│ └── index.tsx # Entry point
+└── README.md # Project documentation
